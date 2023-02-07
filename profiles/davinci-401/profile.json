@@ -1,7 +1,23 @@
 {
-  "title": "Testing",
+  "title": "401 DaVinci Enablement",
   "description": "TBD",
   "actions": [
+    {
+      "name": "Glitch App",
+      "namePosition": "MIDDLE",
+      "icon": "box-blue",
+      "toolTip": "401 Beginner's Luck",
+      "action": "REDIRECT",
+      "resource": "https://glitch.com/edit/#!/pingone-davinci-401"
+    },
+    {
+      "name": "Verify Form",
+      "namePosition": "MIDDLE",
+      "icon": "box-green",
+      "toolTip": "Verify Form HTML",
+      "action": "CLIPBOARD",
+      "resource": "verify.html"
+    },
     {
       "name": "",
       "icon": "",
@@ -10,39 +26,25 @@
       "resource": ""
     },
     {
-      "name": "Invalid<br>Profile",
+      "name": "",
       "icon": "",
       "toolTip": "",
-      "action": "PROFILE",
-      "resource": "invalid_profile"
+      "action": "",
+      "resource": ""
     },
     {
-      "name": "Invalid<br>Action",
+      "name": "",
       "icon": "",
       "toolTip": "",
-      "action": "INVALID_ACTION",
-      "resource": "testing"
+      "action": "",
+      "resource": ""
     },
     {
-      "name": "Invalid<br>Pref",
+      "name": "",
       "icon": "",
       "toolTip": "",
-      "action": "PREF_CLIPBOARD",
-      "resource": "unset_clip"
-    },
-    {
-      "name": "Invalid<br>Clipboard",
-      "icon": "",
-      "toolTip": "",
-      "action": "CLIPBOARD",
-      "resource": "invalid_pref"
-    },
-    {
-      "name": "Unset<br>Pref",
-      "icon": "",
-      "toolTip": "",
-      "action": "REDIRECT",
-      "resource": "{{invalid_ref}}/myaccount/"
+      "action": "",
+      "resource": ""
     },
     {
       "name": "",
