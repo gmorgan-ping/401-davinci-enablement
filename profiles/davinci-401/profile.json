@@ -18,6 +18,14 @@
       "action": "PREF_CLIPBOARD",
       "resource": "home_email"
     },
+    {
+      "name": "Test<br/>Password",
+      "namePosition": "MIDDLE",
+      "icon": "box-red",
+      "toolTip": "Copy preference example password to clipboard",
+      "action": "PREF_CLIPBOARD",
+      "resource": "home_password"
+    },
       {
       "name": "2:Verify<br/>Form",
       "namePosition": "MIDDLE",
@@ -25,13 +33,6 @@
       "toolTip": "Verify Form HTML",
       "action": "CLIPBOARD",
       "resource": "verify.html"
-    },
-    {
-      "name": "",
-      "icon": "",
-      "toolTip": "",
-      "action": "",
-      "resource": ""
     },
     {
       "name": "",
