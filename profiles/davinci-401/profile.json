@@ -24,21 +24,21 @@
       "action": "PREF_CLIPBOARD",
       "resource": "home_password"
     },
-      {
-      "name": "2:Verify<br/>Form",
-      "namePosition": "MIDDLE",
-      "icon": "box-green",
-      "toolTip": "Verify Form HTML",
-      "action": "GIT_CLIPBOARD",
-      "resource": "verify.html"
-    },
     {
-      "name": "Email<br/>Tmpl.",
+      "name": "1:Email<br/>Tmpl.",
       "namePosition": "MIDDLE",
       "icon": "box-green",
       "toolTip": "Welcome email template for PingOne notification",
       "action": "GIT_CLIPBOARD",
       "resource": "welcome-email.txt"
+    },
+    {
+      "name": "1:SK<br/>Error",
+      "namePosition": "MIDDLE",
+      "icon": "box-green",
+      "toolTip": "HTML for DaVinci SK Error field components",
+      "action": "GIT_CLIPBOARD",
+      "resource": "1-skerror-component.txt"
     },
     {
       "name": "",

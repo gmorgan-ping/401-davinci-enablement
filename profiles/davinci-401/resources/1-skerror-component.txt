@@ -1,0 +1,2 @@
+<div data-skcomponent="skerrormessage" class="error-message" data-skerrorid="email"></div>
+<div data-skcomponent="skerrormessage" class="error-message" data-skerrorid="password"></div>
