@@ -4,9 +4,9 @@
   "actions": [
     {
       "name": "Glitch App",
-      "namePosition": "MIDDLE",
-      "icon": "box-blue",
-      "toolTip": "401 Beginner's Luck",
+      "namePosition": "",
+      "icon": "glitch",
+      "toolTip": "401 Beginner's Luck example project",
       "action": "REDIRECT",
       "resource": "https://glitch.com/edit/#!/pingone-davinci-401"
     },
