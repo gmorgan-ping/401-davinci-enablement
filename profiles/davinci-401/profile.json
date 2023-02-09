@@ -3,7 +3,7 @@
   "description": "TBD",
   "actions": [
     {
-      "name": "Glitch App",
+      "name": "401 App",
       "namePosition": "",
       "icon": "glitch",
       "toolTip": "401 Beginner's Luck example project",
