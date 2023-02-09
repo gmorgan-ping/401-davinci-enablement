@@ -35,7 +35,8 @@
       "resource": "verify.html"
     },
     {
-      "name": "Email<br/>Tmpl",
+      "name": "Email<br/>Tmpl.",
+      "namePosition": "MIDDLE",
       "icon": "box-green",
       "toolTip": "Welcome email template for PingOne notification",
       "action": "CLIPBOARD",
