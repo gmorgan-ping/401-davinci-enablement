@@ -110,7 +110,7 @@
       "name": "1: End",
       "icon": "flows",
       "toolTip": "Download 401-1 Registration Flow (Completed)",
-      "action": "DOWNLOAD",
+      "action": "REDIRECT",
       "resource": "https://pingone-davinci-401.glitch.me/flow-exports/401_1_Registration_Complete.json"
     },
     {
