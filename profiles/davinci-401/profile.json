@@ -108,11 +108,12 @@
       "resource": "1-email-node.json"
     },
     {
-      "name": "1: End",
+      "name": "1:Reg End",
       "icon": "flows",
       "toolTip": "Download 401-1 Registration Flow (Completed)",
-      "action": "REDIRECT",
-      "resource": "https://pingone-davinci-401.glitch.me/flow-exports/401_1_Registration_Complete.json"
+      "action": "URL_DOWLOAD",
+      "resource": "https://pingone-davinci-401.glitch.me/flow-exports/401_1_Registration_Complete.json",
+      "fileName": "401_1_Registration_Complete.json"
     },
     {
       "name": "",
