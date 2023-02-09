@@ -19,7 +19,7 @@
       "resource": "home_email"
     },
       {
-      "name": "2<br/>Verify<br/>Form",
+      "name": "2:Verify<br/>Form",
       "namePosition": "MIDDLE",
       "icon": "box-green",
       "toolTip": "Verify Form HTML",
