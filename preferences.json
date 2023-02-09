@@ -17,7 +17,7 @@
   "about": {
     "title": "DaVinci Enablement 401",
     "class": "about",
-    "html": "<h2><img class='logo'/> PING DECK</h2>Version: 0.1.0 <p>Feedback: <a href='mailto:401@pingidentity.com'>pingdeck@pingidentity.com</a>",
+    "html": "<h2><img class='logo'/> PING DECK</h2>Version: 0.1.0 <p>Feedback: <a href='mailto:401@pingidentity.com'>enablement@pingidentity.com</a>",
     "inputs": []
   }
 }
