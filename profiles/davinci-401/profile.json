@@ -63,7 +63,7 @@
       "name": "1: Start",
       "icon": "flows",
       "toolTip": "URL Download 401-1 Registration Flow (Start)",
-      "action": "URL DOWNLOAD",
+      "action": "URL_DOWNLOAD",
       "resource": "https://pingone-davinci-401.glitch.me/flow-exports/401_1_Registration_Start.json"
     },
     {
