@@ -60,6 +60,13 @@
       "resource": ""
     },
     {
+      "name": "1: Start",
+      "icon": "flows",
+      "toolTip": "Download 401-1 Registration Flow (Start)",
+      "action": "REDIRECT",
+      "resource": "https://pingone-davinci-401.glitch.me/flow-exports/401_1_Registration_Start.json"
+    },
+    {
       "name": "1:Email<br/>Tmpl.",
       "namePosition": "MIDDLE",
       "icon": "box-green",
@@ -100,18 +107,11 @@
       "resource": "1-email-node.json"
     },
     {
-      "name": "",
-      "icon": "",
-      "toolTip": "",
-      "action": "",
-      "resource": ""
-    },
-    {
-      "name": "",
-      "icon": "",
-      "toolTip": "",
-      "action": "",
-      "resource": ""
+      "name": "1: End",
+      "icon": "flows",
+      "toolTip": "Download 401-1 Registration Flow (Completed)",
+      "action": "REDIRECT",
+      "resource": "https://pingone-davinci-401.glitch.me/flow-exports/401_1_Registration_Complete.json"
     },
     {
       "name": "",
