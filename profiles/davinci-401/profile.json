@@ -31,7 +31,7 @@
       "namePosition": "MIDDLE",
       "icon": "box-green",
       "toolTip": "Verify Form HTML",
-      "action": "CLIPBOARD",
+      "action": "GIT_CLIPBOARD",
       "resource": "verify.html"
     },
     {
@@ -39,7 +39,7 @@
       "namePosition": "MIDDLE",
       "icon": "box-green",
       "toolTip": "Welcome email template for PingOne notification",
-      "action": "CLIPBOARD",
+      "action": "GIT_CLIPBOARD",
       "resource": "welcome-email.txt"
     },
     {
