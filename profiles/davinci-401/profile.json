@@ -60,7 +60,7 @@
       "resource": ""
     },
     {
-      "name": "1: zStart",
+      "name": "1:Reg Start",
       "icon": "flows",
       "toolTip": "Download 401-1 Registration Flow (Start)",
       "action": "URL_DOWLOAD",
