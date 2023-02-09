@@ -25,12 +25,47 @@
       "resource": "home_password"
     },
     {
+      "name": "",
+      "icon": "",
+      "toolTip": "",
+      "action": "",
+      "resource": ""
+    },
+    {
+      "name": "",
+      "icon": "",
+      "toolTip": "",
+      "action": "",
+      "resource": ""
+    },
+    {
+      "name": "",
+      "icon": "",
+      "toolTip": "",
+      "action": "",
+      "resource": ""
+    },
+    {
+      "name": "",
+      "icon": "",
+      "toolTip": "",
+      "action": "",
+      "resource": ""
+    },
+    {
+      "name": "",
+      "icon": "",
+      "toolTip": "",
+      "action": "",
+      "resource": ""
+    },
+    {
       "name": "1:Email<br/>Tmpl.",
       "namePosition": "MIDDLE",
       "icon": "box-green",
       "toolTip": "Welcome email template for PingOne notification",
       "action": "GIT_CLIPBOARD",
-      "resource": "welcome-email.txt"
+      "resource": "1-welcome-email.txt"
     },
     {
       "name": "1:Error<br/>Field",
@@ -57,46 +92,12 @@
       "resource": "1-skerror-general.txt"
     },
     {
-      "name": "",
-      "icon": "",
-      "toolTip": "",
-      "action": "",
-      "resource": ""
-    },
-    {
-      "name": "",
-      "icon": "",
-      "toolTip": "",
-      "action": "",
-      "resource": ""
-    },
-    {
-      "name": "",
-      "icon": "",
-      "toolTip": "",
-      "action": "",
-      "resource": ""
-    },
-    {
-      "name": "",
-      "icon": "",
-      "toolTip": "",
-      "action": "",
-      "resource": ""
-    },
-    {
-      "name": "",
-      "icon": "",
-      "toolTip": "",
-      "action": "",
-      "resource": ""
-    },
-    {
-      "name": "",
-      "icon": "",
-      "toolTip": "",
-      "action": "",
-      "resource": ""
+      "name": "1:Email<br/>Comp",
+      "namePosition": "MIDDLE",
+      "icon": "box-green",
+      "toolTip": "Copy the completed Email node to your clipboard",
+      "action": "GIT_DV_CLIPBOARD",
+      "resource": "1-email-node.json"
     },
     {
       "name": "",

@@ -1,0 +1,102 @@
+{
+    "clonedNodes": [
+        {
+            "data": {
+                "id": "o3ss0lfo3d",
+                "nodeType": "CONNECTION",
+                "connectionId": "867ed4363b2bc21c860085ad2baa817d",
+                "connectorId": "httpConnector",
+                "name": "Http",
+                "label": "httpConnector",
+                "status": "configured",
+                "capabilityName": "customHTMLTemplate",
+                "type": "trigger",
+                "properties": {
+                    "title": {
+                        "value": "Email & Password"
+                    },
+                    "bodyHeaderText": {
+                        "value": "Almost done! Enter your email address and set a password"
+                    },
+                    "formFieldsList": {
+                        "value": [
+                            {
+                                "propertyName": "email",
+                                "preferredControlType": "textField",
+                                "preferredDataType": "string",
+                                "value": "",
+                                "hashedVisibility": false,
+                                "displayName": "Email"
+                            },
+                            {
+                                "propertyName": "password",
+                                "preferredControlType": "textField",
+                                "preferredDataType": "string",
+                                "value": "",
+                                "hashedVisibility": true,
+                                "displayName": "Password"
+                            },
+                            {
+                                "preferredControlType": "textField",
+                                "preferredDataType": "string",
+                                "propertyName": "buttonValue"
+                            }
+                        ]
+                    },
+                    "nodeTitle": {
+                        "value": "Collect Email"
+                    },
+                    "nodeDescription": {
+                        "value": "Email & Password"
+                    },
+                    "backgroundColor": {
+                        "value": "#b0d5ffff"
+                    },
+                    "customHTML": {
+                        "value": "<section class=\"register\">\n    <form id=\"frmRegister\">\n        <div class=\"register-content\">\n            <div class=\"logo-wrapper\">\n                <img class=\"logo\" />\n            </div>\n            <h3>Beginner's Luck Online Gaming</h3>\n            <h1>Email and Password</h1>\n            <p>Almost done! Enter your email address and set a password</p>\n            <label>Email</label>\n            <input type=\"text\" id=\"email\" />\n            <label>Password</label>\n            <input type=\"password\" id=\"password\" /><i class=\"fa fa-eye togglepwd\" id=\"togglepwd\" aria-hidden=\"true\"></i>\n            <div class=\"buttonbar\">\n                <button id=\"btnRegister\" data-skcomponent=\"skbutton\" data-skbuttontype=\"form-submit\"\n                    data-skbuttonvalue=\"register\" data-skform=\"frmRegister\">\n                    <i class=\"fa fa-arrow-circle-right\" aria-hidden=\"true\"></i> Next\n                </button>\n            </div>\n            <div data-skcomponent=\"skerror\" class=\"error-message\" data-skvisibility=\"\" ></div>\n            <div data-skcomponent=\"skerrormessage\" class=\"error-message\" data-skerrorid=\"email\"></div>\n            <div data-skcomponent=\"skerrormessage\" class=\"error-message\" data-skerrorid=\"password\"></div>\n        </div>\n    </form>\n</section>"
+                    },
+                    "customScript": {
+                        "value": "document.getElementById(\"email\").focus()\n\n// Toggle password field visibility\ndocument.getElementById(\"togglepwd\").addEventListener('click', function (e) {\n    let pwdField = document.getElementById(\"password\");\n\n    if (pwdField.type === 'password') {\n        pwdField.type = 'text'\n        e.currentTarget.classList.remove(\"fa-eye\");\n        e.currentTarget.classList.add(\"fa-eye-slash\");\n    } else {\n        pwdField.type = 'password'\n        e.currentTarget.classList.remove(\"fa-eye-slash\");\n        e.currentTarget.classList.add(\"fa-eye\");\n    }\n});"
+                    },
+                    "validationRules": {
+                        "value": [
+                            {
+                                "propertyName": "email",
+                                "rules": [
+                                    {
+                                        "ruleName": "email",
+                                        "message": "Please supply a valid email address"
+                                    }
+                                ]
+                            },
+                            {
+                                "propertyName": "password",
+                                "rules": [
+                                    {
+                                        "ruleName": "format",
+                                        "pattern": "^(?=.*[0-9])(?=.*[!@#$%^&*])[a-zA-Z0-9!@#$%^&*]{7,24}$",
+                                        "message": "Password must contain at least one number, and a special character and be between 7 and 24 characters in length"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                "idUnique": "nkqcfbwgml"
+            },
+            "position": {
+                "x": 2521.345901224602,
+                "y": 561.3423937327359
+            },
+            "group": "nodes",
+            "removed": false,
+            "selected": false,
+            "selectable": true,
+            "locked": false,
+            "grabbable": true,
+            "pannable": false,
+            "classes": ""
+        }
+    ],
+    "clonedEdges": []
+}
