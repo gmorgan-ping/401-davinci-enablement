@@ -11,19 +11,20 @@
       "resource": "https://glitch.com/edit/#!/pingone-davinci-401"
     },
     {
+      "name": "User<br/>Email",
+      "namePosition": "MIDDLE",
+      "icon": "box-red",
+      "toolTip": "Copy preference email address to clipboard",
+      "action": "PREF_CLIPBOARD",
+      "resource": "home_email"
+    },
+      {
       "name": "2<br/>Verify<br/>Form",
       "namePosition": "MIDDLE",
       "icon": "box-green",
       "toolTip": "Verify Form HTML",
       "action": "CLIPBOARD",
       "resource": "verify.html"
-    },
-    {
-      "name": "",
-      "icon": "",
-      "toolTip": "",
-      "action": "",
-      "resource": ""
     },
     {
       "name": "",
