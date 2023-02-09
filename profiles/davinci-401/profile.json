@@ -19,7 +19,7 @@
       "resource": "home_email"
     },
     {
-      "name": "Test<br/>Password",
+      "name": "Test<br/>Pwd",
       "namePosition": "MIDDLE",
       "icon": "box-red",
       "toolTip": "Copy preference example password to clipboard",
@@ -35,11 +35,11 @@
       "resource": "verify.html"
     },
     {
-      "name": "",
-      "icon": "",
-      "toolTip": "",
-      "action": "",
-      "resource": ""
+      "name": "Email<br/>Tmpl",
+      "icon": "box-green",
+      "toolTip": "Welcome email template for PingOne notification",
+      "action": "CLIPBOARD",
+      "resource": "welcome-email.txt"
     },
     {
       "name": "",
