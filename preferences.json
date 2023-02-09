@@ -14,7 +14,7 @@
       },
       {
         "id": "password",
-        "label": "Example User Password",
+        "label": "Test User Password",
         "type": "text",
         "tooltip": "Default password to be used when creating test users"
       }
