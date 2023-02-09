@@ -1,6 +1,6 @@
 {
   "home": {
-    "title": "Home",
+    "title": "DaVinci 401",
     "inputs": [
       {
         "id": "name",
@@ -21,7 +21,7 @@
     ]
   },
   "about": {
-    "title": "DaVinci Enablement 401",
+    "title": "About",
     "class": "about",
     "html": "<h2><img class='logo'/> PING DECK</h2>Version: 0.1.0 <p>Feedback: <a href='mailto:401@pingidentity.com'>enablement@pingidentity.com</a>",
     "inputs": []
