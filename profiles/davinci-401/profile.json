@@ -33,7 +33,7 @@
       "resource": "welcome-email.txt"
     },
     {
-      "name": "1:SK<br/>Error",
+      "name": "1:Error<br/>Field",
       "namePosition": "MIDDLE",
       "icon": "box-green",
       "toolTip": "HTML for DaVinci SK Error field components",
@@ -41,18 +41,20 @@
       "resource": "1-skerror-component.txt"
     },
     {
-      "name": "",
-      "icon": "",
-      "toolTip": "",
-      "action": "",
-      "resource": ""
+      "name": "1:Pwd<br/>RegEx",
+      "namePosition": "MIDDLE",
+      "icon": "box-green",
+      "toolTip": "RegEx for password validation",
+      "action": "GIT_CLIPBOARD",
+      "resource": "1-password-regex.txt"
     },
     {
-      "name": "",
-      "icon": "",
-      "toolTip": "",
-      "action": "",
-      "resource": ""
+      "name": "1:SK<br/>Error",
+      "namePosition": "MIDDLE",
+      "icon": "box-green",
+      "toolTip": "HTML for DaVinci SK Error component",
+      "action": "GIT_CLIPBOARD",
+      "resource": "1-skerror-general.txt"
     },
     {
       "name": "",
