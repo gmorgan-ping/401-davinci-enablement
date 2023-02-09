@@ -11,17 +11,15 @@
       "resource": "https://glitch.com/edit/#!/pingone-davinci-401"
     },
     {
-      "name": "User<br/>Email",
-      "namePosition": "MIDDLE",
-      "icon": "box-red",
+      "name": "User Email",
+      "icon": "clipboard",
       "toolTip": "Copy preference email address to clipboard",
       "action": "PREF_CLIPBOARD",
       "resource": "home_email"
     },
     {
-      "name": "Test<br/>Pwd",
-      "namePosition": "MIDDLE",
-      "icon": "box-red",
+      "name": "Test Pwd",
+      "icon": "clipboard",
       "toolTip": "Copy preference example password to clipboard",
       "action": "PREF_CLIPBOARD",
       "resource": "home_password"
