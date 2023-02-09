@@ -60,11 +60,12 @@
       "resource": ""
     },
     {
-      "name": "1: Start",
+      "name": "1: zStart",
       "icon": "flows",
       "toolTip": "Download 401-1 Registration Flow (Start)",
-      "action": "REDIRECT",
-      "resource": "https://pingone-davinci-401.glitch.me/flow-exports/401_1_Registration_Start.json"
+      "action": "URL_DOWLOAD",
+      "resource": "https://pingone-davinci-401.glitch.me/flow-exports/401_1_Registration_Start.json",
+      "fileName": "401_1_Registration_Start.json"
     },
     {
       "name": "1:Email<br/>Tmpl.",
